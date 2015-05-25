@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LOLSafeType"
   s.version      = "0.0.1"
-  s.summary      = "A short description of LOLSafeType."
+  s.summary      = "Description of LOLSafeType."
 
   s.description  = <<-DESC
                    A longer description of LOLSafeType in Markdown format.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
