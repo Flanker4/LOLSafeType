@@ -1,10 +1,7 @@
 //
 //  NSString+NilOrEmpty.m
-//  TRD
 //
-//  Created by flanker on 11.12.12.
-//
-//
+
 
 #import "NSString+LOLSafeType.h"
 
