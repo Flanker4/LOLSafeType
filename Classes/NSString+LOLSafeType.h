@@ -1,9 +1,5 @@
 //
 //  NSString+NilOrEmpty.h
-//  TRD
-//
-//  Created by flanker on 11.12.12.
-//
 //
 
 #import <Foundation/Foundation.h>
