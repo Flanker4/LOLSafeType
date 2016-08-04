@@ -8,9 +8,10 @@
 #import "NSNumber+LOLSafeType.h"
 
 #define LOLDynamicCast(object,classType) ([(object) isKindOfClass:[classType class]]?((classType*)object):nil)
+#define LOLDynamicCastToProtocol(object,protocolType)  ([(object) conformsToProtocol:@protocol(protocolType)]?((id<protocolType>)(object)):nil)
 
 #define _cast(classType,object) LOLDynamicCast(object, classType)
-
+#define _castToProtocol(protocolType, object) LOLDynamicCastToProtocol(object, protocolType)
 #define _if_let(classType, var, object) \
     classType* var = _cast(classType,object);\
     if  (var)
