@@ -21,7 +21,7 @@
 
 #define _guard_let(classType, var, object)\
     classType* var = _cast(classType,object);\
-    _guard(predicate)
+    _guard(var)
 
 #define _safe_block(block,...)  if (block) {block(__VA_ARGS__);}
 
